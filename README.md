@@ -1,62 +1,34 @@
-🚀 ✅ YOUR PROGRESS SUMMARY
-🔐 Module 1 – Authentication & Roles (Backend)
+ 🚀 Full Stack Order Tracking System (Real-Time)
 
-✔ POST /auth/register → User registration
-✔ POST /auth/login → Login + JWT token
-✔ GET /auth/me → Get current user (protected)
+Developed a full-stack Order Tracking System with real-time updates using modern web technologies. The application supports user authentication, role-based access control, product management, order placement, and live order tracking without page refresh.
 
-✔ Password hashing using bcrypt
-✔ JWT authentication implemented
-✔ Role system (Admin / Customer)
-✔ Middleware for protected routes
-🔒 Security (Important Backend Concepts)
-
-✔ Auth middleware (token validation)
-✔ Admin middleware (role-based access)
-✔ Protected routes working
-
-🛍️ Module 2 – Product Management (Backend)
-
-✔ Product model created
-✔ POST /products → Add product (Admin only)
-✔ GET /products → View products
-
-✔ Admin restriction applied
-✔ API security working properly
-
-👉 Status: Backend COMPLETE ✅
-
-🛒 Module 3 – Orders System (CORE)
-
-✔ Create order (POST /orders)
-✔ Multi-product support
-✔ Total calculation
-✔ User-based orders
-✔ Get all orders
-✔ Get single order
-
-🔄 Module 4 – Order Status System
-
-✔ Update status (PATCH /orders/:id/status)
-✔ Admin-only control
-✔ Status flow implemented:
-Created → Confirmed → Processing → Shipped → Delivered
-⚡ Module 5 – Real-Time Setup
-
-✔ Installed Socket.io
-✔ WebSocket server setup
-✔ Order room joining
-✔ Event emit on status update
-
-👉 Backend now supports live updates 🔥
-
-| Module                      | Status    |
-| --------------------------- | --------- |
-| Module 1 (Auth)             | ✅ Done    |
-| Module 2 (Products)         | ✅ Done    |
-| Module 3 (Orders)           | ✅ Done    |
-| Module 4 (Status)           | ✅ Done    |
-| Module 5 (Realtime backend) | ✅ Done    |
-| Frontend                    | ⏳ Pending |
+🛠️ Tech Stack:
+Frontend: React (Vite), Axios, React Router
+Backend: Node.js, Express.js
+Database: MongoDB (Mongoose)
+Real-time: Socket.io
+Authentication: JWT (JSON Web Tokens), bcrypt
+🔑 Key Features:
+🔐 Authentication & Authorization
+User registration and login with JWT
+Role-based access (Admin / Customer)
+Protected API routes using middleware
+🛍️ Product Management
+Admin can add products
+Users can view available products
+📦 Order Management
+Customers can place orders
+Orders stored with items, total amount, and status
+📡 Real-Time Order Tracking
+Implemented Socket.io for live updates
+Order status updates reflect instantly on frontend without refresh
+⚙️ Admin Controls
+Admin can update order status (Created → Delivered)
+UI-based status updates (no need for Postman)
+🎯 Highlights:
+Built complete end-to-end system from scratch
+Implemented real-time communication (WebSockets)
+Designed scalable backend structure with middleware
+Integrated frontend and backend with secure API calls
 
 
